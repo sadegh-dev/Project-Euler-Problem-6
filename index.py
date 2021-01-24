@@ -9,13 +9,14 @@ answer = m - n
 # ----------- m ----------- #
 a = 0
 for x in range(1,101):
-    a = a + x
+    a += x
 m = a ** 2
+
 # ----------- n ----------- #
 n = 0
 for x in range(1,101):
     b = x ** 2
-    n = n + b
+    n += b
 
 # -------- answer -------- #
 answer = m - n
